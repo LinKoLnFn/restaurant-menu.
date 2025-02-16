@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню ресторана</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        .category {
+            margin-top: 20px;
+        }
+        .item {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .item:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Меню ресторана</h1>
+        
+        <div class="category">
+            <h2>Закуски</h2>
+            <div class="item">Салат Цезарь</div>
+            <div class="item">Брускетты с томатами</div>
+        </div>
+        
+        <div class="category">
+            <h2>Основные блюда</h2>
+            <div class="item">Стейк из говядины</div>
+            <div class="item">Паста Карбонара</div>
+        </div>
+        
+        <div class="category">
+            <h2>Десерты</h2>
+            <div class="item">Тирамису</div>
+            <div class="item">Чизкейк</div>
+        </div>
+        
+        <div class="category">
+            <h2>Напитки</h2>
+            <div class="item">Кофе</div>
+            <div class="item">Чай</div>
+        </div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню ресторана</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        .category {
+            margin-top: 20px;
+        }
+        .item {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .item:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Меню ресторана</h1>
+        
+        <div class="category">
+            <h2>Закуски</h2>
+            <div class="item">Салат Цезарь</div>
+            <div class="item">Брускетты с томатами</div>
+        </div>
+        
+        <div class="category">
+            <h2>Основные блюда</h2>
+            <div class="item">Стейк из говядины</div>
+            <div class="item">Паста Карбонара</div>
+        </div>
+        
+        <div class="category">
+            <h2>Десерты</h2>
+            <div class="item">Тирамису</div>
+            <div class="item">Чизкейк</div>
+        </div>
+        
+        <div class="category">
+            <h2>Напитки</h2>
+            <div class="item">Кофе</div>
+            <div class="item">Чай</div>
+        </div>
+    </div>
+</body>
+</html>

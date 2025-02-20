@@ -1,133 +1,72 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="fi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Меню ресторана</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f8f8;
-            text-align: center;
-        }
-        .container {
-            max-width: 600px;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #333;
-        }
-        .category {
-            margin-top: 20px;
-        }
-        .item {
-            padding: 10px;
-            border-bottom: 1px solid #ddd;
-        }
-        .item:last-child {
-            border-bottom: none;
-        }
-    </style>
+    <title>Ravintolan menu</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Меню ресторана</h1>
-        
+        <h1>Menu</h1>
         <div class="category">
-            <h2>Закуски</h2>
-            <div class="item">Салат Цезарь</div>
-            <div class="item">Брускетты с томатами</div>
-        </div>
-        
-        <div class="category">
-            <h2>Основные блюда</h2>
-            <div class="item">Стейк из говядины</div>
-            <div class="item">Паста Карбонара</div>
-        </div>
-        
-        <div class="category">
-            <h2>Десерты</h2>
-            <div class="item">Тирамису</div>
-            <div class="item">Чизкейк</div>
-        </div>
-        
-        <div class="category">
-            <h2>Напитки</h2>
-            <div class="item">Кофе</div>
-            <div class="item">Чай</div>
-        </div>
-    </div>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Меню ресторана</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f8f8;
-            text-align: center;
-        }
-        .container {
-            max-width: 600px;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #333;
-        }
-        .category {
-            margin-top: 20px;
-        }
-        .item {
-            padding: 10px;
-            border-bottom: 1px solid #ddd;
-        }
-        .item:last-child {
-            border-bottom: none;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Меню ресторана</h1>
-        
-        <div class="category">
-            <h2>Закуски</h2>
-            <div class="item">Салат Цезарь</div>
-            <div class="item">Брускетты с томатами</div>
-        </div>
-        
-        <div class="category">
-            <h2>Основные блюда</h2>
-            <div class="item">Стейк из говядины</div>
-            <div class="item">Паста Карбонара</div>
-        </div>
-        
-        <div class="category">
-            <h2>Десерты</h2>
-            <div class="item">Тирамису</div>
-            <div class="item">Чизкейк</div>
-        </div>
-        
-        <div class="category">
-            <h2>Напитки</h2>
-            <div class="item">Кофе</div>
-            <div class="item">Чай</div>
+            <h2>Alkuun</h2>
+            <div class="menu-item">
+                <div class="item-info">
+                    <h3>Annos salsalla valitsemasi dipin</h3>
+                    <p>Olutpulloirenkaat 6 kpl (L)</p>
+                </div>
+                <span class="price">7,60 €</span>
+            </div>
+            <div class="menu-item">
+                <div class="item-info">
+                    <h3>Jalapeno poppers 6 kpl</h3>
+                    <p>Mozzarellajuustotikut 6 kpl</p>
+                </div>
+                <span class="price">9,40 €</span>
+            </div>
+            <div class="menu-item">
+                <div class="item-info">
+                    <h3>Halloumijuustotikut 6 kpl (G)</h3>
+                    <p>Chillijuusto 8 kpl</p>
+                </div>
+                <span class="price">9,40 €</span>
+            </div>
+            <div class="menu-item">
+                <div class="item-info">
+                    <h3>Vegaaninen chillijuusto 8 kpl (Ve/L)</h3>
+                    <p>Paneeroidut herkkusienet 8 kpl (G/L)</p>
+                </div>
+                <span class="price">9,40 €</span>
+            </div>
+            <div class="menu-item">
+                <div class="item-info">
+                    <h3>Broilerin siivet 2 kpl (L)</h3>
+                    <p>Jusutornatu (G)</p>
+                </div>
+                <span class="price">6,90 €</span>
+            </div>
+            <div class="menu-item">
+                <div class="item-info">
+                    <h3>(rapeta ranskalaisia, pekonia, kaksi chili ja cheddarjuustoa)</h3>
+                    <p>Ristikkoperunat (L)</p>
+                </div>
+                <span class="price">7,70 €</span>
+            </div>
+            <div class="menu-item">
+                <div class="item-info">
+                    <h3>Kierreperunat (G/L)</h3>
+                    <p>Ranskalaiset (G/L)</p>
+                </div>
+                <span class="price">7,70 €</span>
+            </div>
+            <div class="menu-item">
+                <div class="item-info">
+                    <h3>Bataattiranskalaiset (G/L)</h3>
+                    <p>Dippivihannekset (G/L/Ve)</p>
+                </div>
+                <span class="price">9,10 €</span>
+            </div>
         </div>
     </div>
 </body>
